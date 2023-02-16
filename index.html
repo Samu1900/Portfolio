@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portifolio</title>
+  <!--====== CSS ======-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/cor-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <!--====== Container Principal ======-->
+  <div class="pricipal-container">
+    <!--====== Barra lateral ======-->
+      <div class="barra-lateral">
+        <div class="logo">
+          <a href="#"><span>P</span>ortifolio</a>
+        </div><!--logo-->
+        <div class="alternar-navegacao">
+          <span></span>
+        </div><!--alternar-navegacao-->
+          <ul class="nav">
+              <li><a href="#home" onclick="menuToggle()" id="myID"><i class="fa fa-home"></i> Home</a></li>
+              <li><a href="#sobre" onclick="menuToggle()"><i class="fa fa-user"></i> Sobre</a></li>
+          </ul><!-- nav -->
+      </div><!--barra-lateral-->
+    <!--====== Barra lateral Final ======-->
+
+    <!--====== Conteudo Principal ======-->
+    <div class="conteudo-principal">
+         <!--====== Home ======-->
+        <section class="home section hidden" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="info padd-15">
+                <h3 class="ola">Ola, meu nome é <span class="nome">Cézar Augusto</span></h3>
+                <h3 class="minha-profissao">Eu sou um <span class="profissao"> Estudante</span></h3>
+                <p>Meu nome é Cézar sou estudante de programação e marketing mas também busco sempre me manter atualizado sobre o mercado financeiro.
+                  Me familiarizo com atividades dinâmicas e tudo aquilo que me desafia profissionalmente no dia a dia!</p>
+                  <a href="#sobre" onclick="menuToggle()" class="btn hire-me">Mais sobre mim</a>
+              </div>
+              <div class="imagem padd-15">
+                <img src="assets/img/minhaFoto.jpeg" alt="">
+              </div><!--imagem-->
+            </div><!--row-->
+          </div><!--contaier-->
+        </section><!--home-->
+         <!--====== Home Final======-->
+
+         <!--====== Sobre ======-->
+          <section class="sobre section" id="sobre">
+            <div class="container">
+              <div class="row">
+                <div class="titulo-section padd-15">
+                  <h2>Sobre Mim</h2>
+                </div><!--titulo-section-->
+              </div><!--row-->
+              <div class="row">
+                <div class="conteudo-sobre padd-15">
+                   <div class="row">
+                      <div class="texto-sobre padd-15">
+                        <h3>Eu sou Cézar Augusto e sou <span>Estudante</span></h3>
+                        <p>Sou estudante de programação e marketing mas também busco sempre me manter atualizado sobre o mercado financeiro.</br>
+                          Me familiarizo com atividades dinâmicas e tudo aquilo que me desafia profissionalmente no dia a dia!</p>
+                      </div><!--texto-sobre-->
+                   </div><!--row-->
+                   <div class="row">
+                      <div class="info-pessoal padd-15">
+                        <div class="row">
+                          <div class="info-item padd-15">
+                            <p>Data de nascimento : <span>17/11/2003</span></p>
+                          </div><!--info-item-->
+                          <div class="info-item padd-15">
+                            <p>Idade : <span>18</span></p>
+                          </div><!--info-item-->
+                          <div class="info-item padd-15">
+                            <p>Email : <span>cezarrezende012@gmail.com</span></p>
+                          </div><!--info-item-->
+                          <div class="info-item padd-15">
+                            <p>Endereço : <span> Rua Augusta Andrade Lage</span></p>
+                          </div><!--info-item-->  
+                          <div class="info-item padd-15">
+                            <p>Complemento : <span>nº546 Jaqueline - MG</span></p>
+                          </div><!--info-item-->
+                          <div class="info-item padd-15">
+                            <p>Telefone : <span>(31) 972335375</span></p>
+                          </div><!--info-item-->
+                        </div><!--row-->
+                        <div class="row">
+                        </div><!--row-->
+                      </div><!--inf-pessoal-->
+                      <div class="skills padd-15">
+                        <div class="row">
+                          <div class="skill-title padd-15">
+                            <h2>Experiências</h2>
+                          </div><!--skill-title-->
+                          <div class="skill-item padd-15">
+                            <i class="fa fa-calendar"></i>13/05/2021 - 15/02/2022
+                            <h5>ESPRO/SERASA EXPERIAN </h5>
+                            <h3>Auxiliar de escritório em geral / Assistente de operações 2 </h3>
+                            <p>Realizar atendimento presencial, sanando dúvidas, cadastrando documentos, ofertando produtos/serviços e apoiando as demais demandas</p>
+                          </div><!--skill-item-->
+                          <div class="skill-item padd-15">
+                            <i class="fa fa-calendar"></i>12/05/2022 - 25/06/2022
+                            <h5>DROGARIA ARAÚJO</h5>
+                            <h3>Repositor de mercadorias</h3>
+                            <p>Receber mercadorias, conferir e repor.</p>  
+                          </div><!--skill-item-->
+                          <div class="skill-item padd-15">
+                            <i class="fa fa-calendar"></i>07/11/2022 - Atual
+                            <h5>ESTRELABET</h5>
+                            <h3>Assistente de Trade Marketing / Microcrédito</h3>
+                            <p>Customer Success, Controle de Orçamento, Planejamento de Projetos, Suporte ao Cliente, Análise de Negócios.</p>
+                          </div><!--skill-item-->
+                        </div><!--row-->
+                      </div><!--skills-->
+                      <div class="educacao padd-15">
+                        <div class="row">
+                          <div class="educacao-title padd-15">
+                            <h2>Educação</h2>
+                          </div><!--skill-title-->
+                          <div class="educacao-item padd-15">
+                            <i class="fa fa-calendar"></i>10/2021 - 06/2023
+                            <h5>SENAI </h5>
+                            <h3>Cursando técnico em desenvolvimento de sistemas</h3>
+                          </div><!--skill-item-->
+                          <div class="educacao-item padd-15">
+                            <i class="fa fa-calendar"></i>2009/2021
+                            <h5>ENSINO MÉDIO</h5>
+                            <h3>Etapa final da Educação Básica (Concluído)</h3>
+                          </div><!--skill-item-->
+                          <div class="educacao-item padd-15">
+                            <i class="fa fa-calendar"></i>08/2020 - Concluido
+                            <h5>MERCADO FINANCEIRO (Bolsa de Valores) </h5>
+                            <h3>Concluído </h3>
+                          </div><!--skill-item-->
+                          <div class="educacao-item padd-15">
+                            <i class="fa fa-calendar"></i> 2016/2018
+                            <h5>INFORMATICA GERAÇÃO WEB  </h5>
+                            <h3>Concluído </h3>
+                          </div><!--skill-item-->
+                        </div><!--row-->
+                      </div><!--skills-->
+                      </div><!--row-->
+                   </div><!--row-->
+                </div><!--conteudo-sobre-->
+              </div><!--row-->
+            </div><!--container-->
+          </section><!--sobre section-->
+         <!--====== Sobre Final ======-->
+
+    </div><!--conteudo-Principal-->
+    <!--====== Conteudo Principal Final ======-->
+
+  </div><!--principal-container-->
+  <!--====== Container Principal Final ======-->
+
+  <!--====== JavaScript ======-->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
